@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import  {useState} from 'react';
 import './index.css';
 
 
 
 const Color = ({color, setSelectedColor}) => {
-  return <div classname={color} onClick={() => setSelectedColor(color)}></div>;
+  return <div className={color} onClick={() => setSelectedColor(color)}></div>;
 }
 
 const App = () => {
